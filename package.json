@@ -14,7 +14,6 @@
   "repository": "https://github.com/thomasjo/atom-latex",
   "dependencies": {
     "@dicy/core": "^0.7.0",
-    "dbus-native": "^0.2.1",
     "etch": "0.12.4",
     "fs-plus": "^3.0.0",
     "glob": "^7.1.1",
@@ -24,6 +23,9 @@
     "temp": "^0.8.3",
     "tree-kill": "^1.1.0",
     "wrench": "^1.5.9"
+  },
+  "optionalDependencies": {
+    "dbus-native": "^0.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
